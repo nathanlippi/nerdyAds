@@ -2,7 +2,8 @@
   margin: 0px;
   padding: 0px;
   font-family: 'sans-serif';
-  font-weight: 100;
+  font-weight: 900;
+  color: #9CE694;
 }
 html {
   font-size: 10px;
@@ -13,8 +14,15 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #CAF3CA;
-  background: linear-gradient(to right, #CAF3CA, #CAF3CA) !important;
+  background-color: #38A052;
+}
+#headline {
+  color: white !important;
+  font-size: 52px;
+  font-weight: 900;
+}
+#sub-headline {
+  font-size: 35px;
 }
 .row {
   margin: 0px;
