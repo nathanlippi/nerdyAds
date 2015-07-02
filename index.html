@@ -22,75 +22,90 @@
                 </h2>
 				</div>
 
-				<div class="tweet-main">
-					<div class="tweet-box">
-					
-						<div class="tweet-box-text">
-							<a href="https://twitter.com/intent/tweet?text=I%20found%20the%20ads%20—%20can%20you?&url=http%3A%2F%2Fnerdyads.com&via=nerdyads">I found the ads—can you?</a>
-						</div>
-						<a href="https://twitter.com/intent/tweet?text=I%20found%20the%20ads%20--%20can%20you?&url=http%3A%2F%2Fnerdyads.com&via=nerdyads" class="tweet-btn">Click to Tweet</a>
-					</div>
-					
-					<div class="tweet-box">
-						
-						<div class="tweet-box-text">
-							<a href="https://twitter.com/intent/tweet?text=Help!%20%20I%20can%27t%20find%20the%20ads!&url=http%3A%2F%2Fnerdyads.com&via=nerdyads">
-                            Help!  I can't find the ads!
-                            </a>
-						</div>
-						<a href="https://twitter.com/intent/tweet?text=I%20can%27t%20find%20the%20ads%20--%20help,%20my%20nerdy%20friends!&url=http%3A%2F%2Fnerdyads.com&via=nerdyads" class="tweet-btn">Click to Tweet</a>
-						
-					</div>
-				</div>
-				
 				<div class="chimp-main">
-					<div class="chimp-box" id="box-nerds">
-						<a href="#" class="button" onclick="showSubscribe1();return false;">
-						<div class="chimp-box-text" >
-							<h1>I Want To Advertise</h1>
-							<h3>To Nerds</h3>
-						</div>
-						</a>  
-					</div>
-					
-					<div class="chimp-box" id="box-mysite">
-						<a href="#" class="button" onclick="showSubscribe2();return false;">
-						<div class="chimp-box-text" >
-						
-							<h1>I Want Nerdy Ads</h1>
-							<h3>On My Site</h3>
-						</div>
-						</a>  
-					</div>
+                  <div class="row">
+                    <div class="col-md-12 col-lg-6">
+                      <div class="chimp-box" id="box-nerds">
+                          <a href="#" class="button" onclick="showSubscribe1();return false;">
+                          <div class="chimp-box-text" >
+                              <h1>I Want To Advertise</h1>
+                              <h3>To Nerds</h3>
+                          </div>
+                          </a>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+                      <div class="chimp-box" id="box-mysite">
+                          <a href="#" class="button" onclick="showSubscribe2();return false;">
+                          <div class="chimp-box-text" >
+
+                              <h1>I Want Nerdy Ads</h1>
+                              <h3>On My Site</h3>
+                          </div>
+                          </a>
+                      </div>
+                    </div>
+
+                  </div>
 				</div>
-			
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <br/>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="tweet-main">
+                        <div class="tweet-box">
+
+                            <div class="tweet-box-text">
+                                <a href="https://twitter.com/intent/tweet?text=I%20found%20the%20ads%20—%20can%20you?&url=http%3A%2F%2Fnerdyads.com&via=nerdyads">I found the ads—can you?</a>
+                            </div>
+                            <a href="https://twitter.com/intent/tweet?text=I%20found%20the%20ads%20--%20can%20you?&url=http%3A%2F%2Fnerdyads.com&via=nerdyads" class="tweet-btn">Click to Tweet</a>
+                        </div>
+
+                        <div class="tweet-box">
+
+                            <div class="tweet-box-text">
+                                <a href="https://twitter.com/intent/tweet?text=Help!%20%20I%20can%27t%20find%20the%20ads!&url=http%3A%2F%2Fnerdyads.com&via=nerdyads">
+                                Help!  I can't find the ads!
+                                </a>
+                            </div>
+                            <a href="https://twitter.com/intent/tweet?text=I%20can%27t%20find%20the%20ads%20--%20help,%20my%20nerdy%20friends!&url=http%3A%2F%2Fnerdyads.com&via=nerdyads" class="tweet-btn">Click to Tweet</a>
+
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
 			</div>
 		</div>
 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-      <script> 
+      <script>
 
-      function showSubscribe1(){  
-          document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';  
-          require(["mojo/signup-forms/Loader"], function(L) {  
-              L.start({"baseUrl":"mc.us3.list-manage.com",  
-                  "uuid":"17bc5e5e76e776090c313f944",  
-                  "lid":"d746effc50"});   
-          });  
-      }  
+      function showSubscribe1(){
+          document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+          require(["mojo/signup-forms/Loader"], function(L) {
+              L.start({"baseUrl":"mc.us3.list-manage.com",
+                  "uuid":"17bc5e5e76e776090c313f944",
+                  "lid":"d746effc50"});
+          });
+      }
       </script>
-	
-      <script> 
 
-      function showSubscribe2(){  
-          document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';  
-          require(["mojo/signup-forms/Loader"], function(L) {  
-              L.start({"baseUrl":"mc.us3.list-manage.com",  
-                  "uuid":"17bc5e5e76e776090c313f944",  
-                  "lid":"a692cd729f"});   
-          });  
-      }  
+      <script>
+
+      function showSubscribe2(){
+          document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+          require(["mojo/signup-forms/Loader"], function(L) {
+              L.start({"baseUrl":"mc.us3.list-manage.com",
+                  "uuid":"17bc5e5e76e776090c313f944",
+                  "lid":"a692cd729f"});
+          });
+      }
       </script>
 	</body>
 </html>
