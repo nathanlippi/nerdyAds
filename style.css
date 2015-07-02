@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'sans-serif';
+  font-weight: 100;
+}
+html {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #CAF3CA;
+  background: linear-gradient(to right, #CAF3CA, #CAF3CA) !important;
+}
+.row {
+  margin: 0px;
+}
+.wrapper {
+  display: block;
+  padding: 10px 25px !important;
+}
+.main-heading {
+  padding-top: 30px;
+  margin: 0px auto;
+  max-width: 1200px;
+  text-align: center;
+  font-size: 48px;
+}
+.tweet-main {
+  margin: 0px auto;
+  max-width: 460px;
+}
+.tweet-box {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 18px 5px;
+  margin: 25px 0px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FFF;
+  max-width: 460px;
+}
+.tweet-box .tweet-box-text {
+  text-align: left;
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
+.tweet-box .tweet-box-text a {
+  color: #000;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  text-decoration: none;
+  text-transform: none;
+  cursor: pointer;
+}
+.tweet-box a.tweet-btn {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #AEAEAE;
+  float: right;
+  padding-right: 24px;
+  text-decoration: none;
+  background: transparent url("images/twitter-bird.png") no-repeat scroll right top;
+  cursor: pointer;
+}
+.chimp-main {
+  margin: 0px auto;
+  max-width: 380px;
+  max-height: 90px;
+}
+.chimp-box {
+  border: 1px solid #004800;
+  border-radius: 4px;
+  padding: 0px;
+  margin: 25px 0px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: #004800;
+  border-radius: 10px;
+  max-width: 380px;
+  max-height: 90px;
+}
+.chimp-box a {
+  text-decoration: none;
+}
+.chimp-box .chimp-box-text {
+  text-align: left;
+  font-weight: 300;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.chimp-box .chimp-box-text h1 {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+.chimp-box .chimp-box-text h3 {
+  margin-top: 4px;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+#box-nerds {
+  background-color: #079407;
+}
+#box-mysite {
+  background-color: #004800;
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+  .main-heading h1 {
+    font-size: 22px;
+  }
+  .main-heading h2 {
+    font-size: 20px;
+  }
+  .tweet-box .tweet-box-text a {
+    font-size: 18px;
+  }
+  .chimp-box .chimp-box-text h1 {
+    font-size: 24px;
+  }
+  .chimp-box .chimp-box-text h3 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 150px) and (max-width: 767px) {
+  .main-heading h1 {
+    font-size: 18px;
+  }
+  .main-heading h2 {
+    font-size: 14px;
+  }
+  .tweet-box .tweet-box-text a {
+    font-size: 14px;
+  }
+  .chimp-box .chimp-box-text h1 {
+    font-size: 18px;
+  }
+  .chimp-box .chimp-box-text h3 {
+    font-size: 14px;
+  }
+}
